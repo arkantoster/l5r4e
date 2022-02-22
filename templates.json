@@ -1,0 +1,234 @@
+{
+    "Actor": {
+      "types": [
+        "pc",
+        "npc"
+      ],
+      "templates": {
+        "common": {
+          "traits": {
+            "sta": 2,
+            "wil": 2,
+            "str": 2,
+            "per": 2,
+            "ref": 2,
+            "awa": 2,
+            "agi": 2,
+            "int": 2
+          },
+          "rings": {
+            "fire": 2,
+            "air": 2,
+            "water": 2,
+            "earth": 2
+          },
+          "wounds": {
+            "value": 0,
+            "max": 20,
+            "mod": 0,
+            "heal_rate": 0
+          },
+          "suffered": 0,
+          "wound_lvl": {
+            "healthy": {
+              "value": 0,
+              "penalty": 0,
+              "current": true
+            },
+            "nicked": {
+              "value": 0,
+              "penalty": 3,
+              "current": false
+            },
+            "grazed": {
+              "value": 0,
+              "penalty": 5,
+              "current": false
+            },
+            "hurt": {
+              "value": 0,
+              "penalty": 10,
+              "current": false
+            },
+            "injured": {
+              "value": 0,
+              "penalty": 15,
+              "current": false
+            },
+            "crippled": {
+              "value": 0,
+              "penalty": 20,
+              "current": false
+            },
+            "down": {
+              "value": 0,
+              "penalty": 40,
+              "current": false
+            },
+            "out": {
+              "value": 0,
+              "penalty": 40,
+              "current": false
+            }
+          },
+          "armor": {
+            "armor_tn": 0,
+            "reduction": 0
+          },
+          "notes": ""
+        }
+      },
+      "npc": {
+        "templates": [
+          "common"
+        ],
+        "initiative": {
+          "roll": 2,
+          "keep": 2
+        },
+        "attack1": {
+          "roll": 2,
+          "keep": 2,
+          "type": ""
+        },
+        "attack2": {
+          "roll": 2,
+          "keep": 2,
+          "type": ""
+        },
+        "damage1":{
+          "roll": 2,
+          "keep": 2,
+          "type": ""
+        },
+        "damage2":{
+          "roll": 2,
+          "keep": 2,
+          "type": ""
+        },
+        "nrWoundLvls": 1
+      },
+      "pc": {
+        "templates": [
+          "common"
+        ],
+        "rings": {
+          "void": {
+            "rank": 2,
+            "value": 2,
+            "max": 2
+          }
+        },
+        "xp": 0,
+        "clan": "",
+        "school": "",
+        "honor": {
+          "rank": 2,
+          "points": 0
+        },
+        "glory": {
+          "rank": 1,
+          "points": 0
+        },
+        "status": {
+          "rank": 1,
+          "points": 0
+        },
+        "shadow_taint": {
+          "rank": 0,
+          "points": 0
+        },
+        "initiative": {
+          "roll": 2,
+          "keep": 2,
+          "roll_mod": 0,
+          "keep_mod": 0,
+          "total_mod": 0
+        },
+        "insight": {
+          "rank": 1,
+          "points": 0
+        },
+        "armor_tn": {
+          "type": "",
+          "reduction": 0,
+          "current": 0,
+          "mod": 0
+        },
+        "woundsMod": 0
+      }
+    },
+    "Item": {
+      "types": [
+        "weapon",
+        "bow",
+        "armor",
+        "spell",
+        "skill",
+        "technique"
+      ],
+      "templates": {
+        "itemDescription": {
+          "description": "",
+          "specialRules": ""
+        }
+      },
+      "weapon": {
+        "templates": [
+          "itemDescription"
+        ],
+        "damageRoll": 0,
+        "damageKeep": 0,
+        "size": "Medium",
+        "damageFormula": ""
+      },
+      "bow": {
+        "templates": [
+          "itemDescription"
+        ],
+        "str": 1,
+        "size": "Large",
+        "range": 100,
+        "arrow": "willow",
+        "damageRoll": 0,
+        "damageKeep": 0
+      },
+      "armor": {
+        "templates": [
+          "itemDescription"
+        ],
+        "bonus": 0,
+        "reduction": 0,
+        "specialRues": "",
+        "equiped": false
+      },
+      "spell": {
+        "templates": [
+          "itemDescription"
+        ],
+        "ring": "",
+        "mastery": 1,
+        "keywords": [],
+        "range": "",
+        "aoe": "",
+        "duration": "",
+        "raises": ""
+      },
+      "technique": {
+        "templates": [
+          "itemDescription"
+        ],
+        "rank": 1,
+        "shugenja": false,
+        "affinity": "",
+        "deficiency": ""
+      },
+      "skill": {
+        "rank": 0,
+        "type": "high",
+        "trait": "void",
+        "emphasis": "",
+        "school": false
+      }
+    }
+  }

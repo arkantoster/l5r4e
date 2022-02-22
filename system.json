@@ -1,0 +1,32 @@
+{
+    "name": "l5r4e",
+    "title": "Legend of the Five Rings - 4E",
+    "description": "System to play L5R 4E",
+    "author": "arkantoster",
+    "version": "0.0.1",
+    "minumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "esmodules": [
+      "l5r4.js"
+    ],
+    "styles": [
+      "l5r4.css"
+    ],
+    "background": "seven_thunders.webp",
+    "packs": [
+  
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "url": "https://bitbucket.org/TeoCay/l5r4",
+    "manifest": "",
+    "download": ""
+  }
+  

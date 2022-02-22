@@ -1,0 +1,186 @@
+{
+  "l5r4": {
+    "chat": {
+      "traitRoll": "Trait roll {trait}",
+      "ringRoll": "Ring roll {ring}",
+      "skillRoll": "Skill roll {skill}",
+      "damageRoll": "Damage roll {weapon}"
+    },
+    "errors": {
+      "scoolRankZero": "You can't cast a spell with School Rank reduced to zero"
+    },
+    "mech": {
+      "roll": "Roll",
+      "cancel": "Cancel",
+      "ok": "Ok",
+      "keep": "Keep",
+      "raise": "Raise",
+      "init": "Initiative",
+      "bonus": "Bonus",
+      "mod": "Modifier",
+      "rate": "Rate",
+      "current": "Current",
+      "total": "Total",
+      "ringRoll": "Ring roll",
+      "traitRoll": "Trait roll",
+      "skillRoll": "Skill roll",
+      "damageRoll": "Damage roll",
+      "attackRoll": "Attack roll",
+      "spellCasting": "Spell Casting roll",
+      "unskilledRoll": "Unskilled roll",
+      "emphasis": "Emphasis",
+      "toChat": "To chat",
+      "effect": "Effect",
+      "simple": "Simple",
+      "complex": "Complex",
+      "free": "Free",
+      "attack": "Attack",
+      "action": "Action"
+    },
+    "attack": {
+      "melee": "Melee",
+      "ranged": "Ranged"
+    },
+    "weapon": {
+      "attackType": "Attack Type",
+      "size": "Size",
+      "damageRoll": "Damage Roll",
+      "damageKeep": "Damage Keep",
+      "str": "Strength",
+      "range": "Range",
+      "arrow": "Arrow",
+      "typeWeapon": "Weapon",
+      "typeBow": "Bow",
+      "damage": "Damage"
+    },
+    "armor": {
+      "name": "Armor",
+      "bonus": "Bonus",
+      "reduction": "Reduction",
+      "equiped": "Equipped"
+    },
+    "spell": {
+      "ring": "Ring",
+      "mastery": "Mastery",
+      "range": "Range",
+      "aoe": "Area of Effect",
+      "duration": "Duration",
+      "raises": "Raises",
+      "affinity": "Affinity",
+      "deficiency": "Deficiency"
+    },
+    "rings": {
+      "Ring": "Ring",
+      "fire": "Fire",
+      "water": "Water",
+      "air": "Air",
+      "earth": "Earth",
+      "void": "Void",
+      "voidPoints": "Void Points"
+    },
+    "skill": {
+      "rank": "Rank",
+      "type": "Type",
+      "trait": "Trait",
+      "emphasis": "Emphases",
+      "school": "School skill"
+    },
+    "traits": {
+      "name": "Name",
+      "clan": "Clan",
+      "school": "School",
+      "rank": "Rank",
+      "xp": "Experience Points",
+      "insight": "Insight",
+      "sta": "Stamina",
+      "wil": "Willpower",
+      "str": "Strength",
+      "per": "Perception",
+      "ref": "Reflexes",
+      "awa": "Awareness",
+      "agi": "Agility",
+      "int": "Intelligence",
+      "wounds": "Wounds",
+      "armorTn": "Armor TN",
+      "armorTnBase": "Armor TN Base",
+      "woundLevel": "Wounds Level",
+      "woundsSuffered": "Wounds suffered",
+      "penalty": "Penalty",
+      "total": "Total",
+      "current": "Current",
+      "woundHealRate": "Rate of Wound Heal",
+      "healthy": "Healthy",
+      "nicked": "Nicked ",
+      "grazed": "Grazed",
+      "hurt": "Hurt",
+      "injured": "Injured",
+      "crippled": "Crippled",
+      "down": "Down",
+      "out": "Out"
+    },
+    "sheet": {
+      "skills": "Skills",
+      "addSkill": "Add skill",
+      "skillName": "Skill name",
+      "edit": "Edit",
+      "delete": "Delete",
+      "weapons": "Weapons",
+      "addWeapon": "Add weapon",
+      "addEquipment": "Add Equipment",
+      "new": "New",
+      "notes": "Notes",
+      "spell": "Spell",
+      "spells": "Spells",
+      "armors": "Armors",
+      "addArmor": "Add Armor",
+      "effect": "Effect",
+      "technique": "Technique",
+      "techniques": "Techniques",
+      "addTechSpell": "Add technique/spell",
+      "shugenja": "Shugenja",
+      "equipment": "Equipment",
+      "rulesSummary": "Rules Summary",
+      "description": "Description",
+      "nrWoundLvls": "Number of Wound levels"
+    },
+    "skillTypes": {
+      "high": "High",
+      "bugei": "Bugei",
+      "merch": "Merchant",
+      "low": "Low"
+    },
+    "ranks": {
+      "honorRank": "Honor Rank",
+      "honorPoints": "Honor Points",
+      "gloryRank": "Glory Rank",
+      "gloryPoints": "Glory Points",
+      "statusRank": "Status Rank",
+      "statusPoints": "Status Points",
+      "shadowRank": "Shadowland Taint",
+      "shadowPoints": "Shadow Points",
+      "insightRank": "Insight Rank",
+      "insightPoints": "Insight Points"
+    },
+    "arrows": {
+      "armor": "Armor Piercing",
+      "flesh": "Flesh Cutter",
+      "humming": "Humming Bulb",
+      "rope": "Rope Cutter",
+      "willow": "Willow Leaf"
+    }
+  },
+  "SETTINGS": {
+    "showTraitRollOptions":{
+      "name": "Ask for Trait Rolls options by default.",
+      "label": "Hold Shift to Toggle."
+    },
+    "showSpellRollOptions":{
+      "name": "Ask if the Ring Roll is a spell by default.",
+      "label":"Hold Shift to Toggle."
+    },
+    "showSkillRollOptions":{
+      "name": "Ask for Skill Rolls and Damage Roll options by default.",
+      "label": "Hold Shift to Toggle."
+    }
+  }
+}
