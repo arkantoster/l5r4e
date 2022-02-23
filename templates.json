@@ -160,75 +160,140 @@
     },
     "Item": {
       "types": [
-        "weapon",
-        "bow",
-        "armor",
-        "spell",
         "skill",
-        "technique"
+        "advantage",
+        "disadvantage",
+        "ancestor",
+        "spell",
+        "technique",
+        "school",
+        "kata",
+        "kiho",
+        "weapon",
+        "equipment_effect",
+        "armor",
+        "tattoo",
+        "path"
       ],
-      "templates": {
-        "itemDescription": {
-          "description": "",
-          "specialRules": ""
-        }
+      "skill": {
+        "type": "",
+        "trait": "",
+        "tags": [],
+        "masterAbilities": [],
+        "rank": 0,
+        "emphasis": [],
+        "school": false
       },
-      "weapon": {
-        "templates": [
-          "itemDescription"
-        ],
-        "damageRoll": 0,
-        "damageKeep": 0,
-        "size": "Medium",
-        "damageFormula": ""
+      "advantage": {
+        "type": "",
+        "grade": 0,
+        "description": "",
+        "rule": ""
       },
-      "bow": {
-        "templates": [
-          "itemDescription"
-        ],
-        "str": 1,
-        "size": "Large",
-        "range": 100,
-        "arrow": "willow",
-        "damageRoll": 0,
-        "damageKeep": 0
+      "disadvantage": {
+        "type": "",
+        "grade": 0,
+        "description": "",
+        "rule": ""
       },
-      "armor": {
-        "templates": [
-          "itemDescription"
-        ],
-        "bonus": 0,
-        "reduction": 0,
-        "specialRues": "",
-        "equiped": false
+      "ancestor": {
+        "type": "",
+        "grade": 0,
+        "description": "",
+        "rule": ""
       },
       "spell": {
-        "templates": [
-          "itemDescription"
-        ],
-        "ring": "",
+        "element": "",
         "mastery": 1,
-        "keywords": [],
         "range": "",
-        "aoe": "",
+        "area": "",
         "duration": "",
-        "raises": ""
+        "description": "",
+        "keywords": [],
+        "damage":[],
+        "raises": [],
+        "tags": []
       },
-      "technique": {
-        "templates": [
-          "itemDescription"
-        ],
-        "rank": 1,
-        "shugenja": false,
-        "affinity": "",
-        "deficiency": ""
-      },
-      "skill": {
+      "technique" : {
         "rank": 0,
-        "type": "high",
-        "trait": "void",
-        "emphasis": "",
-        "school": false
+        "description": ""
+      },
+      "school": {
+        "clan": "",
+        "type": "",
+        "tags": [],
+        "requirements": [],
+        "techniques": [],
+        "schoolSkills": [],
+        "honor": 0,
+        "trait": "",
+        "possessions": {
+          "money": {
+            "koku": 0,
+            "bu": 0,
+            "zeni": 0
+          },
+          "other": []
+        },
+        "spells": {
+          "affinity": "",
+          "deficiency": "",
+          "initial": [],
+          "choose":[]
+        }
+      },
+      "kata": {
+        "mastery": 0,
+        "element": "",
+        "description": "",
+        "requirements": []
+      },
+      "kiho": {
+        "mastery": 0,
+        "element": "",
+        "type": "",
+        "description": "",
+        "requirements": [],
+        "tags": []
+      },
+      "weapon": {
+        "price": "",
+        "skill":"",
+        "size": "",
+        "description": "",
+        "damage": [],
+        "effect": [],
+        "range": "",
+        "strength": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "equipment_effect": {
+        "description": "",
+        "rule": ""
+      },
+      "armor": {
+        "price": "",
+        "tn": 0,
+        "dr": 0,
+        "description": "",
+        "effect": [],
+        "range": "",
+        "strength": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      "tattoo": {
+        "description": "",
+        "rule": ""
+      },
+      "path": {
+        "clanid": "",
+        "tags": [],
+        "requirements": [],
+        "replaces": []
       }
     }
   }
